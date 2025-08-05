@@ -8,8 +8,8 @@
         - Ele foi criado para manter os projetos mais organizados. O padrão MVC foi criado para separar melhor o que cada coisa do sistema faz.
             Model: modelo, View: telas: Controller: ponte entre modelos e telas; permite que o usuário acesse. Desta maneira, os softwares ficam
             mais legíveis, com melhor manutenabilidade e funcionamento.
-    - O: Segregação de interfaces - deve haver sempre uma interface para que haja uma conversa entre classes. Deve ter uma interface concisa, permitindo
-        que outras classes interajam com ela.
+    - O: 
     - L:
-    - I:
+    - I: Segregação de interfaces - deve haver sempre uma interface para que haja uma conversa entre classes. Deve ter uma interface concisa, permitindo
+        que outras classes interajam com ela.
     - D:

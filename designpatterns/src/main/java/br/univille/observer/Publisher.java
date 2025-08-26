@@ -4,8 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Publisher implements Subscriber {
-    // private Subscriber[] subscribers = new Subscriber[5];
-    private List<Subscriber> subscribers = new ArrayList<>();
+    // Lista estática - Código do diagrama
+    // private Subscriber[] subscribers = new Subscriber[10];
+
+    // Lista dinâmica
+    private ArrayList<Subscriber> subscribers = new ArrayList<>();
+
     private String mainState;
 
     public void subscribe(Subscriber s) {
@@ -18,7 +22,7 @@ public class Publisher implements Subscriber {
 
     public void notifySubscrbers() {
         for (Subscriber subscriber : subscribers) {
-            subscriber.update(this);
+            subscriber.update(mainState);
         }
     }
 
@@ -27,10 +31,18 @@ public class Publisher implements Subscriber {
     }
 
     @Override
-    public void update(Publisher context) {
+    public void update(String context) {
         // TODO Auto-generated method stub
         
     }
 
+    public String getMainState() {
+        return mainState;
+    }
+
+    public void setMainState(String mainState) {
+        this.mainState = mainState;
+    }
+    
     
 }

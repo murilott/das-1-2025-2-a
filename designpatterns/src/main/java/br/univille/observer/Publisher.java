@@ -1,7 +1,6 @@
 package br.univille.observer;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Publisher implements Subscriber {
     // Lista estática - Código do diagrama

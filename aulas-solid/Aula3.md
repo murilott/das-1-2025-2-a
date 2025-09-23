@@ -3,7 +3,6 @@
 - SOLID:
     - O: Aberto/fechado - Uma classe deve estar aberta para extensões e fechada para modificações. Ou seja, é possível extender as suas funcionalidades, 
         feito por classes abstratas e por interfaces
-    - L:
     - D: Princípio da inversão de dependências - uma classe deve possuir dependências com abstrações (interfaces) e não implementações concretas
         Exemplo: Controller(var service) -> Service(interface) <- ServiceImpl(código)
         Isto é feito para reduzir acoplamento entre classes, permitindo que as classes concretas mudem sem alterar o funcionamento. Múltiplas classes com diferentes

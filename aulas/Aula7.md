@@ -1,6 +1,6 @@
 ## Aula 7 - 01/09/2025
 
---- Arquitetura de software
+= Arquitetura de software =
 
 Revisão
 - Características de arquitetura = requisitos não funcionais

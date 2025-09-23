@@ -26,5 +26,3 @@ Compensações (trade-offs)
     - Ao incluir um receiver novo, é necessário criar uma fila, incluir no sender e conectá-los, causando mais impacto nos dois lados
     - Rastreabilidade de problemas maior
     - Maior acomplamento
-
-- Arquitetura baseada em 

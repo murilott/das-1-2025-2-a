@@ -13,5 +13,6 @@
         <module>aulas-solid</module>
         <module>designpatterns</module>
         <module>eventos</module>
+        <module>solid</module>
     </modules>
 </project>

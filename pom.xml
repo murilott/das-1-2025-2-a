@@ -10,9 +10,11 @@
     <name>Multi Project: DAS-1-2025-2-A</name>
 
     <modules>
+        <module>aulas</module>
         <module>aulas-solid</module>
         <module>designpatterns</module>
         <module>eventos</module>
         <module>solid</module>
+        <module>aulas2bi</module>
     </modules>
 </project>

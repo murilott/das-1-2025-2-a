@@ -19,6 +19,9 @@ Muitos dos termos são ambíguos,imprecisos e podem se sobrepor, por exemplo, di
 Não há uma lista completa de características, mas a ISO possui uma lista de capacidades publicadas que contém, também, uma lista de categorias incompletas.
 
 == Trade-offs e Arquitetura Menos Pior ==
-Os softwares suportam apenas poucas características
+Os softwares suportam apenas poucas características. O maior problema é que cada característica pode ter um grande impacto nas outras
+Uma arquitetura com características excessivas pode causar conflitos e levam a soluções genéricas que tentam resolver todos os problemas, e eles raramente funcionam.
+Portanto, uma arquitetura deve ser feita de maneira mais iterativa possível, permitindo mudanças com mais facilidade.
+
 
 

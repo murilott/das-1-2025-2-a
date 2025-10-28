@@ -16,5 +16,6 @@
         <module>eventos</module>
         <module>solid</module>
         <module>aulas2bi</module>
+        <module>pipeline</module>
     </modules>
 </project>
